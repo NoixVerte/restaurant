@@ -1,6 +1,8 @@
 import "./styles.css";
-import "./load-page.js";
-import { home, menu, contact, loadPage } from "./load-page.js";
+import { loadPage } from "./load-page.js";
+import { home } from "./home.js";
+import { menu } from "./menu.js";
+import { contact } from "./contact.js";
 
 loadPage();
 
